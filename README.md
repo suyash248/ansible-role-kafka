@@ -1,8 +1,14 @@
 # kafka - Role to install kafka
 
+#### Installation
+
+```
+ansible-galaxy install suyash248.ansible_role_kafka
+```
+
 #### Prerequisites
 - **Java 1.8**
-- **Zookeeper**
+- **Zookeeper** - Can be installed as: `ansible-galaxy install suyash248.ansible_role_zookeeper`
 
 #### Settings/Variables
 
