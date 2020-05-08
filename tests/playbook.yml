@@ -1,0 +1,9 @@
+---
+- hosts: kafka_hosts
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+  roles:
+    - role: ../../
+      become: yes
+
+# ansible-playbook -i inventory --connection=local playbook.yml -K

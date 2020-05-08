@@ -1,0 +1,9 @@
+[kafka_hosts]
+kafka1 ansible_host=25.201.182.24 alias=kafka1 private_ip=172.12.26.124 broker_id=1 public_ip=25.201.182.24 port=9092
+kafka2 ansible_host=25.201.172.56 alias=kafka2 private_ip=172.18.37.115 broker_id=2 public_ip=25.201.172.56 port=9093
+kafka3 ansible_host=25.201.176.52 alias=kafka3 private_ip=172.89.23.126 broker_id=3 public_ip=25.201.176.52 port=9094
+
+[zookeeper_hosts]
+zookeeper1 ansible_host=91.28.240.78 alias=zookeeper1 private_ip=172.56.29.25 zookeeper_id=1 client_port=2181
+zookeeper2 ansible_host=91.85.139.81 alias=zookeeper2 private_ip=172.45.12.83 zookeeper_id=2 client_port=2181
+zookeeper3 ansible_host=91.46.152.93 alias=zookeeper3 private_ip=172.84.68.97 zookeeper_id=3 client_port=2181
