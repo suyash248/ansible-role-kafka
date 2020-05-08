@@ -5,7 +5,7 @@
 ```
 ansible-galaxy install suyash248.ansible_role_kafka
 ```
-[Misc](https://github.com/suyash248/ds_algo#misc)
+
 #### Prerequisites
 - **Java 1.8**
 - **[Zookeeper](https://galaxy.ansible.com/suyash248/ansible_role_zookeeper)** - Can be installed as: `ansible-galaxy install suyash248.ansible_role_zookeeper`
