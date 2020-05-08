@@ -12,7 +12,7 @@ ansible-galaxy install suyash248.ansible_role_kafka
 
 #### Settings/Variables
 
-Following variables can be overwritten by passing `extra-vars` option, or in a template created using *ansible tower*
+Following variables can be overwritten by passing `extra-vars` option, or by modifying `defaults/main.yml`, or in a template created using *ansible tower*.
 
 ```yaml
 ---
