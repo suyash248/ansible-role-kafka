@@ -20,7 +20,7 @@
 
 - name: Download kafka
   get_url:
-    url: "https://downloads.apache.org/kafka/{{kafka.version}}/kafka_{{kafka.scala_version}}-{{kafka.version}}.tgz"
+    url: "https://downloads.apache.org/kafka/{{ kafka.version }}/kafka_{{ kafka.scala_version }}-{{ kafka.version }}.tgz"
     dest: "{{ kafka.home }}"
 
 - name: Extract kafka dist
