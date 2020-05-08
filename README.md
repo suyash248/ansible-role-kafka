@@ -1,8 +1,8 @@
 # kafka - Role to install kafka
 
 #### Prerequisites
-- **Java 1.8** - Can be installed using `java_1_8` role.
-- **Zookeeper** - Can be installed using `zKeeper` role.
+- **Java 1.8**
+- **Zookeeper**
 
 #### Settings/Variables
 
