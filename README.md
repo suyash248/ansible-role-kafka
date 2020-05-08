@@ -1,4 +1,4 @@
-# kafka - Role to install kafka
+# kafka - Ansible role to install kafka
 
 #### Installation
 
